@@ -2,3 +2,25 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  align-content: center;
+  background-color: plum;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+
+.nav-right {
+  padding-left: 10px;
+}
+
+.nav-left {
+  padding-top: 15px;
+}
