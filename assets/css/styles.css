@@ -24,3 +24,25 @@ a {
 .nav-left {
   padding-top: 15px;
 }
+
+.main {
+  display: flex;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('./img/main.jpg')
+}
+
+.main-button {
+  background-color: #3B3DAE;
+  border-radius: 2px;
+  border: none;
+  display: inline-block;
+  color: white;
+  padding: 10px 24px
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
