@@ -30,7 +30,7 @@ a {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('./img/main.jpg')
+  background-image: url(/img/main.jpg);
 }
 
 .main-button {
@@ -42,7 +42,45 @@ a {
   padding: 10px 24px
 }
 
+hr {
+  width: 250px;
+  height: 3spx;
+  background-color: #3f51b5;
+  margin-bottom: 50px
+  border: 0;
+}
+
 img {
   max-width: 100%;
   height: auto;
+}
+
+.trips {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #E8E1E1;
+}
+
+.trip-type {
+  display flex;
+  flex-basis: 1;
+}
+
+.testimonials {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.pictures {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.learn-more {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
 }
